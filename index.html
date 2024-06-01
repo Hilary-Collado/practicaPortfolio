@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- meta -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- titulo -->
+  <title>Portfolio</title>
+
+  <!-- links -->
+  <link href='/style.css' rel='stylesheet'>
+  <link rel="stylesheet" href="normalize.css">
+
+  <!-- fuentes -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Oldenburg&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <div class="background_overlay"></div>
+    <div class="container">
+      <nav class="menu">
+        <a href="">Acerca de</a>
+        <a href="">Trabajos</a>
+        <a href="">Contacto</a>
+      </nav>
+
+      <div class="textContainer">
+        <div class="text">
+          <h1 class="name">Hilary Collado</h1>
+          <h2 class="profesion">Ingeniera En Sistemas Computacionales</h2>
+        </div>
+      </div>
+    </div>
+
+
+  </header>
+
+  <main class="main">
+    <section class="acercaDe">
+      <div class="container">
+        <div class="foto">
+          <img
+            src="imgenes/FigmaProject/perfil.png"
+            alt="Imagen Hilary Collado" width="200">
+        </div>
+        
+        <div class="texto">
+          <h3 class="titulo">Acerca de</h3>
+          <p>Lorem ipsum dolor sit amet <samp class="bold">consectetur adipisicing</samp> elit. Deleniti sint rerum
+            sequi quia, provident, hic,
+            incidunt molestias aspernatur vel voluptatum fugit. <samp class="bold">Similique</samp> dolores
+            exercitationem eos perspiciatis dolore
+            fugit sequi ab!</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="trabajos">
+      <div class="container">
+        <h3 class="titulo">Trabajos</h3>
+
+        <div class="JobsContainers">
+          <div class="trabajo">
+            <div class="thumb">
+              <img src="imgenes/FigmaProject/disenhografico.jpg" alt="ing. en Sistemas" >
+            </div>
+            <div class="description">
+              <p class="nombre">Lorem Ipsum</p>
+              <p class="categoria">HTML-CSS-JS</p>
+            </div>
+          </div>
+
+          <div class="trabajo">
+            <div class="thumb">
+              <img src="imgenes/FigmaProject/disenhografico.jpg" alt="diseño grafico">
+            </div>
+            <div class="description">
+              <p class="nombre">Lorem Ipsum</p>
+              <p class="categoria">HTML-CSS-JS</p>
+            </div>
+          </div>
+
+          <div class="trabajo">
+            <div class="thumb">
+              <img src="imgenes/FigmaProject/disenhografico.jpg" alt="Programacion">
+            </div>
+            <div class="description">
+              <p class="nombre">Lorem Ipsum</p>
+              <p class="categoria">HTML-CSS-JS</p>
+            </div>
+          </div>
+
+          <div class="trabajo">
+            <div class="thumb">
+              <img src="imgenes/FigmaProject/drawing.jpg" alt="Dibujo">
+            </div>
+            <div class="description">
+              <p class="nombre">Lorem Ipsum</p>
+              <p class="categoria">HTML-CSS-JS</p>
+            </div>
+          </div>
+
+          <div class="trabajo">
+            <div class="thumb">
+              <img src="imgenes/FigmaProject/sing.jpg" alt="Musica">
+            </div>
+            <div class="description">
+              <p class="nombre">Lorem Ipsum</p>
+              <p class="categoria">HTML-CSS-JS</p>
+            </div>
+          </div>
+
+          <div class="trabajo">
+            <div class="thumb">
+              <img src="imgenes/FigmaProject/model.jpg" alt="Model">
+            </div>
+            <div class="description">
+              <p class="nombre">Lorem Ipsum</p>
+              <p class="categoria">HTML-CSS-JS</p>
+            </div>
+          </div>
+
+          <div class="trabajo">
+            <div class="thumb">
+              <img src="imgenes/FigmaProject/sing.jpg" alt="locucion">
+            </div>
+            <div class="description">
+              <p class="nombre">Lorem Ipsum</p>
+              <p class="categoria">HTML-CSS-JS</p>
+            </div>
+          </div>
+
+          <div class="trabajo">
+            <div class="thumb">
+              <img src="imgenes/FigmaProject/model.jpg" alt="Maquillaje">
+            </div>
+            <div class="description">
+              <p class="nombre">Lorem Ipsum</p>
+              <p class="categoria">HTML-CSS-JS</p>
+            </div>
+          </div>
+
+        
+        </div>
+      </div>
+    </section>
+  </main>
+
+
+  <footer>
+    <section class="contacto">
+      <div class="container">
+        <div class="titulo">Contacto</div>
+        <form action="" class="formulario">
+          <input type="text" placeholder="Nombre" name="nombre" required>
+          <input type="email" placeholder="Email" name="email" required>
+          <textarea name="mensaje" placeholder="Mensaje"></textarea>
+          <input class="boton" type="submit" value="Enviar">
+        </form>
+      </div>
+    </section>
+
+
+    <div id="copyright">
+      Copyright &copy; <span id="year"></span> by Hilary Collado
+    </div>
+
+  </footer>
+
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      var yearSpan = document.getElementById("year");
+      var currentYear = new Date().getFullYear();
+      yearSpan.textContent = currentYear;
+    });
+  </script>
+
+  </script>
+  <script defer type="text/javascript" src="/main.js"></script>
+</body>
+
+</html>

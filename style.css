@@ -1,0 +1,274 @@
+/* Add styles here */
+:root{
+    --titulos: "Oldenburg", serif;
+    --letras: "Cormorant Garamond", serif;
+}
+
+  
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body{
+    background: #fff;
+    font-size: 16px;
+    font-family: "Cormorant Garamond", serif;
+}
+
+.container{
+    width: 90%;
+    margin: auto;
+    max-width: 1000px;
+    /* background: #ccc; */
+    overflow: hidden;
+}
+
+/* header */
+header{
+    background: url('imgenes/FigmaProject/fondo_color.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    max-height: 600px;
+}
+
+
+header .menu{
+    margin: 40px 0;
+    font-family: "Oldenburg", serif;
+    text-align: right;
+}
+
+header .menu h1{
+    font-size: 2em;
+}
+
+header .menu a{
+    margin: 0 20px;
+    color: #000;
+    padding-bottom: 9px;
+    font-size: 1em;
+    display: inline-block;
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+   
+}
+
+header .menu a:hover{
+    border-bottom: 2px solid #000;
+}
+
+header .textContainer{
+    display: flex;
+    margin: 190px 0;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+header .textContainer .text{
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    border-radius: 3px;
+    display: inline-block;
+    text-align: center;
+    padding: 20px 60px;
+}
+
+header .textContainer .text h1,
+header .textContainer .text h2{
+    color: #fff;
+    font-weight: 300;
+    margin:0;
+}
+
+header .textContainer .text .name{
+    font-family: "Oldenburg", serif;
+    font-size: 50px;
+    line-height: 50px;
+}
+
+header .textContainer .text .profesion{
+    font-family: "Cormorant Garamond", serif;
+    font-size: 30px;
+    line-height: 30px;
+}
+
+
+/* main */
+/* para colocar la imagen del perfil encima del header */
+.main .container{
+    overflow: visible;
+}
+
+.main .acercaDe{
+    text-align: center;
+}
+
+.main .acercaDe .foto{
+    margin-top: -100px;
+}
+
+.main .acercaDe .foto img{
+    vertical-align: top;
+    /* border-radius: 50%; */
+    /* border: 7px solid rgba(255, 255, 255, 0.5); */
+}
+
+.main .acercaDe .texto .titulo{
+    color: #1a4679;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 30px;
+}
+
+.main .acercaDe .texto{
+    color: #5a5a5a;
+    font-weight: 500;
+    line-height: 30px;
+    width: 80%;
+    margin: 40px auto;
+}
+
+.main .acercaDe .texto .bold{
+    color: #295281;
+    text-decoration: underline;
+}
+
+
+.main .trabajos{
+    background: #f2f2f2;
+    padding: 60px 0;
+}
+
+.main .trabajos .container{
+overflow: hidden;
+}
+
+.main .trabajos .titulo{
+    color: #1a4679;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 30px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.main .trabajos .JobsContainers{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+};
+
+.trabajo{
+    width: 23%;
+}
+main .trabajos .container .JobsContainers .trabajo{
+    /* background: blue; */
+    width: 23%;
+    margin-bottom: 40px;
+}
+
+
+.main .trabajos .JobsContainers .trabajo .thumb{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.main .trabajos .JobsContainers .trabajo .thumb img{
+    width: 100%;
+    vertical-align: top;
+    border-radius: 10px;
+}
+
+.main .trabajos .JobsContainers .trabajo .description{
+    text-align: center;
+}
+
+.main .trabajos .JobsContainers .trabajo .description .nombre{
+    color: #2895ea;
+    font-weight: 600;
+    font-size: 20px;
+    font-family: var(--titulos);
+}
+
+.main .trabajos .JobsContainers .trabajo .description .nombre .categoria{
+    font-size: 20px;
+    color: 000;
+    font-family: var(--letras);
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+/* FOOTER */
+
+footer .contacto{
+    padding: 60px 0;
+}
+
+footer .contacto .titulo{
+    color: #1a4679;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 30px;
+    text-align: center;
+    margin-bottom: 40px;
+    font-family: var(--titulos);
+}
+
+footer .contacto .formulario{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+}
+
+footer .contacto .formulario input[type="text"],
+footer .contacto .formulario input[type="email"],
+footer .contacto .formulario textarea{
+    /* display: block; */
+    /* width: 100%; */
+    margin-bottom: 20px;
+    border: 2px solid #cecece;
+    padding: 15px 20px;
+    font-family: var(--letras);
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+footer .contacto .formulario input[type="text"]:focus,
+footer .contacto .formulario input[type="email"]:focus,
+footer .contacto .formulario textarea:focus{
+    border:2px solid #1a4679;
+}
+
+footer .contacto .formulario input[type="text"],
+footer .contacto .formulario input[type="email"]{
+    width: 49%;
+    margin-bottom: 15px;
+}
+
+footer .contacto .formulario textarea{
+    width: 100%;
+    height: 100px;
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 100px;
+    max-height: 300px;
+    margin-bottom: 15px;
+}
+
+footer .contacto .formulario .boton{
+    margin: auto;
+    background: #1a4679;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    padding: 15px 40px;
+    cursor: pointer;
+}
+
+footer .contacto .formulario .boton:hover{
+    background: #255285;
+}
