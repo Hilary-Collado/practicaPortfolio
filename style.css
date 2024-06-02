@@ -272,3 +272,18 @@ footer .contacto .formulario .boton{
 footer .contacto .formulario .boton:hover{
     background: #255285;
 }
+
+footer .firma{
+    background: #1a4679;
+    color: #fff;
+    text-align: center;
+    font-family: var(--letras);
+    padding: 20px 0;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+footer .name{
+    margin-top: 10px;
+    font-family: var(--titulos);
+}
