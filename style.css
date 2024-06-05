@@ -1,23 +1,23 @@
 /* Add styles here */
-:root{
+:root {
     --titulos: "Oldenburg", serif;
     --letras: "Cormorant Garamond", serif;
 }
 
-  
-*{
+
+* {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
 
-body{
+body {
     background: #fff;
     font-size: 16px;
     font-family: "Cormorant Garamond", serif;
 }
 
-.container{
+.container {
     width: 90%;
     margin: auto;
     max-width: 1000px;
@@ -26,7 +26,7 @@ body{
 }
 
 /* header */
-header{
+header {
     background: url('imgenes/FigmaProject/fondo_color.jpg');
     background-repeat: no-repeat;
     background-position: center;
@@ -35,17 +35,17 @@ header{
 }
 
 
-header .menu{
+header .menu {
     margin: 40px 0;
     font-family: "Oldenburg", serif;
     text-align: right;
 }
 
-header .menu h1{
+header .menu h1 {
     font-size: 2em;
 }
 
-header .menu a{
+header .menu a {
     margin: 0 20px;
     color: #000;
     padding-bottom: 9px;
@@ -53,14 +53,14 @@ header .menu a{
     display: inline-block;
     text-decoration: none;
     border-bottom: 2px solid transparent;
-   
+
 }
 
-header .menu a:hover{
+header .menu a:hover {
     border-bottom: 2px solid #000;
 }
 
-header .textContainer{
+header .textContainer {
     display: flex;
     margin: 190px 0;
     display: flex;
@@ -68,7 +68,7 @@ header .textContainer{
     align-content: center;
 }
 
-header .textContainer .text{
+header .textContainer .text {
     border: 2px solid rgba(255, 255, 255, 0.5);
     border-radius: 3px;
     display: inline-block;
@@ -77,19 +77,19 @@ header .textContainer .text{
 }
 
 header .textContainer .text h1,
-header .textContainer .text h2{
+header .textContainer .text h2 {
     color: #fff;
     font-weight: 300;
-    margin:0;
+    margin: 0;
 }
 
-header .textContainer .text .name{
+header .textContainer .text .name {
     font-family: "Oldenburg", serif;
     font-size: 50px;
     line-height: 50px;
 }
 
-header .textContainer .text .profesion{
+header .textContainer .text .profesion {
     font-family: "Cormorant Garamond", serif;
     font-size: 30px;
     line-height: 30px;
@@ -98,32 +98,32 @@ header .textContainer .text .profesion{
 
 /* main */
 /* para colocar la imagen del perfil encima del header */
-.main .container{
+.main .container {
     overflow: visible;
 }
 
-.main .acercaDe{
+.main .acercaDe {
     text-align: center;
 }
 
-.main .acercaDe .foto{
+.main .acercaDe .foto {
     margin-top: -100px;
 }
 
-.main .acercaDe .foto img{
+.main .acercaDe .foto img {
     vertical-align: top;
     /* border-radius: 50%; */
     /* border: 7px solid rgba(255, 255, 255, 0.5); */
 }
 
-.main .acercaDe .texto .titulo{
+.main .acercaDe .texto .titulo {
     color: #1a4679;
     font-weight: 700;
     font-size: 30px;
     line-height: 30px;
 }
 
-.main .acercaDe .texto{
+.main .acercaDe .texto {
     color: #5a5a5a;
     font-weight: 500;
     line-height: 30px;
@@ -131,22 +131,22 @@ header .textContainer .text .profesion{
     margin: 40px auto;
 }
 
-.main .acercaDe .texto .bold{
+.main .acercaDe .texto .bold {
     color: #295281;
     text-decoration: underline;
 }
 
 
-.main .trabajos{
+.main .trabajos {
     background: #f2f2f2;
     padding: 60px 0;
 }
 
-.main .trabajos .container{
-overflow: hidden;
+.main .trabajos .container {
+    overflow: hidden;
 }
 
-.main .trabajos .titulo{
+.main .trabajos .titulo {
     color: #1a4679;
     font-weight: 700;
     font-size: 30px;
@@ -154,46 +154,50 @@ overflow: hidden;
     text-align: center;
     margin-bottom: 40px;
 }
-.main .trabajos .JobsContainers{
+
+.main .trabajos .JobsContainers {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
-};
+}
 
-.trabajo{
+;
+
+.trabajo {
     width: 23%;
 }
-main .trabajos .container .JobsContainers .trabajo{
+
+main .trabajos .container .JobsContainers .trabajo {
     /* background: blue; */
     width: 23%;
     margin-bottom: 40px;
 }
 
 
-.main .trabajos .JobsContainers .trabajo .thumb{
+.main .trabajos .JobsContainers .trabajo .thumb {
     width: 100%;
     margin-bottom: 10px;
 }
 
-.main .trabajos .JobsContainers .trabajo .thumb img{
+.main .trabajos .JobsContainers .trabajo .thumb img {
     width: 100%;
     vertical-align: top;
     border-radius: 10px;
 }
 
-.main .trabajos .JobsContainers .trabajo .description{
+.main .trabajos .JobsContainers .trabajo .description {
     text-align: center;
 }
 
-.main .trabajos .JobsContainers .trabajo .description .nombre{
+.main .trabajos .JobsContainers .trabajo .description .nombre {
     color: #2895ea;
     font-weight: 600;
     font-size: 20px;
     font-family: var(--titulos);
 }
 
-.main .trabajos .JobsContainers .trabajo .description .nombre .categoria{
+.main .trabajos .JobsContainers .trabajo .description .nombre .categoria {
     font-size: 20px;
     color: 000;
     font-family: var(--letras);
@@ -204,11 +208,11 @@ main .trabajos .container .JobsContainers .trabajo{
 
 /* FOOTER */
 
-footer .contacto{
+footer .contacto {
     padding: 60px 0;
 }
 
-footer .contacto .titulo{
+footer .contacto .titulo {
     color: #1a4679;
     font-weight: 700;
     font-size: 30px;
@@ -218,15 +222,15 @@ footer .contacto .titulo{
     font-family: var(--titulos);
 }
 
-footer .contacto .formulario{
+footer .contacto .formulario {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between; 
+    justify-content: space-between;
 }
 
 footer .contacto .formulario input[type="text"],
 footer .contacto .formulario input[type="email"],
-footer .contacto .formulario textarea{
+footer .contacto .formulario textarea {
     /* display: block; */
     /* width: 100%; */
     margin-bottom: 20px;
@@ -239,17 +243,17 @@ footer .contacto .formulario textarea{
 
 footer .contacto .formulario input[type="text"]:focus,
 footer .contacto .formulario input[type="email"]:focus,
-footer .contacto .formulario textarea:focus{
-    border:2px solid #1a4679;
+footer .contacto .formulario textarea:focus {
+    border: 2px solid #1a4679;
 }
 
 footer .contacto .formulario input[type="text"],
-footer .contacto .formulario input[type="email"]{
+footer .contacto .formulario input[type="email"] {
     width: 49%;
     margin-bottom: 15px;
 }
 
-footer .contacto .formulario textarea{
+footer .contacto .formulario textarea {
     width: 100%;
     height: 100px;
     min-width: 100%;
@@ -259,7 +263,7 @@ footer .contacto .formulario textarea{
     margin-bottom: 15px;
 }
 
-footer .contacto .formulario .boton{
+footer .contacto .formulario .boton {
     margin: auto;
     background: #1a4679;
     color: #fff;
@@ -269,11 +273,11 @@ footer .contacto .formulario .boton{
     cursor: pointer;
 }
 
-footer .contacto .formulario .boton:hover{
+footer .contacto .formulario .boton:hover {
     background: #255285;
 }
 
-footer .firma{
+footer .firma {
     background: #1a4679;
     color: #fff;
     text-align: center;
@@ -283,7 +287,45 @@ footer .firma{
     font-weight: 400;
 }
 
-footer .name{
+footer .name {
     margin-top: 10px;
     font-family: var(--titulos);
+}
+
+
+/* media querys */
+
+@media screen and (max-width: 800px) {
+    header .menu {
+        text-align: center;
+    }
+
+    main .trabajos .container .JobsContainers .trabajo {
+        width: 46%;
+    }
+}
+
+
+@media screen and (max-width: 500px) {
+    header .textContainer .text .name {
+        font-size: 35px;
+        /* line-height: 35px; */
+    }
+
+    header .textContainer .text .profesion {
+        font-size: 20px;
+        /* line-height: 25px; */
+    }
+
+    footer .contacto .formulario {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    footer .contacto .formulario input[type="text"],
+    footer .contacto .formulario input[type="email"] {
+        width: 100%;
+        margin-bottom: 15px;
+    }
 }
